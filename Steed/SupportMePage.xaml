@@ -1,0 +1,20 @@
+﻿<Page x:Class="Steed.SupportMePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Steed"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="SupportMePage">
+
+    <Grid Background="#FF232323">
+        <StackPanel Margin="5, 10, 10, 10">
+            <TextBlock Name="tblkAboutHelp" TextWrapping="Wrap" Foreground="LightGray">
+                Want to support the developer? Help me out by donating to my <Hyperlink Foreground="Lime" Click="Hyperlink_Click">cash.me</Hyperlink> or my <Hyperlink Foreground="Yellow">PayPal</Hyperlink>, each donation helps and motivates me to finish Steed!
+                <LineBreak/><LineBreak/> also am willing to take in graphics for Steed, send any to my Discord <Run Foreground="Red">(ushan._ #8114)</Run>,thanks for the support!
+            </TextBlock>
+
+        </StackPanel>
+    </Grid>
+</Page>

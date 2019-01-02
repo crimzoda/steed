@@ -1,0 +1,19 @@
+﻿<Page x:Class="Steed.HelpPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Steed"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="HelpPage" Loaded="Page_Loaded">
+
+    <Grid Background="#FF232323">
+        <StackPanel Margin="5, 10, 10, 10">
+            <TextBlock Name="tblkAboutHelp" TextWrapping="Wrap" Foreground="LightGray">
+                Steed 1.0.0.0.0<LineBreak/>Copyright © 2017 Steed, Inc All Rights Reserved<LineBreak/><LineBreak/>Got Bugs? Suggestions? Support? Contact me on my Discord <Run Foreground="Red">(ushan._#8114)</Run>,
+                i'm glad to receive anything and help out with problems. I'll reply as soon as possible.<LineBreak/><LineBreak/>Future updates:<LineBreak/>- Emulator support<LineBreak/>- Game session details
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
