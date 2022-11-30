@@ -1,6 +1,8 @@
 # Steed
 Steed is a customizable game library with features such as automatic Steam import, profile import, emulation support, widget support, custom game support. As of now Steed is fairly early in development, but we definitley plan on adding more.
 
+![steed_screenshot](https://user-images.githubusercontent.com/46323591/204683648-8775efc1-55a8-48e0-bebf-53b70a65c796.png)
+
 Download is available at https://grinnr.itch.io/steed install instructions are there also :)
 
 When you open/download Steed you may receive a notification from Windows and or your antivirus.
